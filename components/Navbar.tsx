@@ -27,28 +27,28 @@ function Navbar({ className }: { className?: string }) {
         {/* Updated All Courses Menu */}
         <MenuItem setActive={setActive} active={active} item="All Courses">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="">
+            <HoveredLink href="#featured-courses">
               Music Theory
             </HoveredLink>
-            <HoveredLink href="">
+            <HoveredLink href="#featured-courses">
               Composition
             </HoveredLink>
-            <HoveredLink href="">
+            <HoveredLink href="#featured-courses">
               Songwriting
             </HoveredLink>
-            <HoveredLink href="">
+            <HoveredLink href="#featured-courses">
               Music Technology
             </HoveredLink>
-            <HoveredLink href="">
+            <HoveredLink href="#featured-courses">
               Audio Engineering
             </HoveredLink>
-            <HoveredLink href="">
+            <HoveredLink href="#featured-courses">
               Orchestration
             </HoveredLink>
-            <HoveredLink href="">
+            <HoveredLink href="#featured-courses">
               Sound Design
             </HoveredLink>
-            <HoveredLink href="">
+            <HoveredLink href="#featured-courses">
               Film Scoring
             </HoveredLink>
           </div>

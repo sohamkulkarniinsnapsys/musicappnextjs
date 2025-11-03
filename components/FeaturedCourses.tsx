@@ -1,7 +1,6 @@
 'use client'
 
 import Link from "next/link"
-import Image from "next/image"
 import courseData from "../data/music_courses.json"
 import { BackgroundGradient } from "./ui/background-gradient"
 import { Button } from "./ui/moving-border"
@@ -42,9 +41,6 @@ function FeaturedCourses() {
           {featuredCourses.map((course: Course) => (
             <div key={course.id} className="flex justify-center">
               <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm shadow-lg transition-transform duration-300 hover:scale-105">
-                {/* Course Image */}
-                
-
                 {/* Course Info */}
                 <div className="p-6 flex flex-col items-center text-center grow">
                   <h3 className="text-xl font-semibold text-black dark:text-neutral-100 mt-4 mb-2">
@@ -71,13 +67,13 @@ function FeaturedCourses() {
         </div>
       </div>
 
-      {/* View All Button */}
+      {/* View All Button (Redirects to /courses) */}
       <div className="mt-20 text-center flex justify-center">
-        <Button
-          className="cursor-pointer bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-          >
-          Explore courses
-        </Button>
+        <Link href="/courses">
+          <Button className="cursor-pointer bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800">
+            Explore courses
+          </Button>
+        </Link>
       </div>
     </section>
   )

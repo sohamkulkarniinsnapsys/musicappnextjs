@@ -7,8 +7,7 @@
       "description": "Master the fundamentals of music theory — scales, chords, intervals, and harmony to understand how music works.",
       "price": 99.99,
       "instructor": "Dr. Alicia Stone",
-      "isFeatured": true,
-      "image": "/courses/music-theory.jpg"
+      "isFeatured": true
     },
     {
       "id": 2,
@@ -17,8 +16,7 @@
       "description": "Explore modern composition styles, orchestration principles, and creative writing exercises for composers.",
       "price": 129.99,
       "instructor": "David Monroe",
-      "isFeatured": true,
-      "image": "/courses/composition.jpg"
+      "isFeatured": true
     },
     {
       "id": 3,
@@ -27,8 +25,7 @@
       "description": "Learn to write compelling lyrics and melodies that connect with audiences across genres.",
       "price": 119.99,
       "instructor": "Samantha Miller",
-      "isFeatured": false,
-      "image": "/courses/songwriting.jpg"
+      "isFeatured": false
     },
     {
       "id": 4,
@@ -37,8 +34,7 @@
       "description": "Get hands-on with digital audio workstations (DAWs), MIDI, and virtual instruments to produce professional-quality music.",
       "price": 139.99,
       "instructor": "Alex Wilson",
-      "isFeatured": true,
-      "image": "/courses/music-tech.jpg"
+      "isFeatured": true
     },
     {
       "id": 5,
@@ -47,8 +43,7 @@
       "description": "Understand sound recording, mixing, and mastering techniques used by industry professionals.",
       "price": 149.99,
       "instructor": "Michael Torres",
-      "isFeatured": false,
-      "image": "/courses/audio-engineering.jpg"
+      "isFeatured": false
     },
     {
       "id": 6,
@@ -57,8 +52,7 @@
       "description": "Learn how to orchestrate music for film, television, and games using both traditional and digital tools.",
       "price": 159.99,
       "instructor": "Natalie Brooks",
-      "isFeatured": true,
-      "image": "/courses/orchestration.jpg"
+      "isFeatured": true
     },
     {
       "id": 7,
@@ -67,8 +61,7 @@
       "description": "Create unique sounds and textures using synthesis, sampling, and creative audio processing.",
       "price": 139.99,
       "instructor": "Ethan Moore",
-      "isFeatured": false,
-      "image": "/courses/sound-design.jpg"
+      "isFeatured": false
     },
     {
       "id": 8,
@@ -77,8 +70,7 @@
       "description": "Compose evocative scores for films and visual media with professional guidance and real-world projects.",
       "price": 169.99,
       "instructor": "Grace Lee",
-      "isFeatured": true,
-      "image": "/courses/film-scoring.jpg"
+      "isFeatured": true
     },
     {
       "id": 9,
@@ -87,7 +79,8 @@
       "description": "Develop your harmonic vocabulary and learn how to arrange songs for bands, ensembles, and solo performers.",
       "price": 119.99,
       "instructor": "Chris Davis",
-      "isFeatured": false    },
+      "isFeatured": false
+    },
     {
       "id": 10,
       "title": "Live Performance and Stagecraft",
@@ -95,7 +88,8 @@
       "description": "Build confidence and stage presence while mastering live performance techniques for musicians.",
       "price": 109.99,
       "instructor": "John Doe",
-      "isFeatured": false    },
+      "isFeatured": false
+    },
     {
       "id": 11,
       "title": "Digital Music Production Advanced",
@@ -103,7 +97,8 @@
       "description": "Take your production skills to the next level with advanced arrangement, automation, and mastering techniques.",
       "price": 179.99,
       "instructor": "Luke Harris",
-      "isFeatured": true    },
+      "isFeatured": true
+    },
     {
       "id": 12,
       "title": "Music Business and Marketing",
@@ -111,6 +106,7 @@
       "description": "Learn how to navigate the modern music industry, promote your music, and build a sustainable career.",
       "price": 99.99,
       "instructor": "Emily Johnson",
-      "isFeatured": false    }
+      "isFeatured": false
+    }
   ]
 }
