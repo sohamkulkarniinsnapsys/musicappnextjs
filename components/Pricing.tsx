@@ -57,7 +57,7 @@ function Pricing() {
         <FocusCards cards={cards} />
 
         {/* Optional CTA */}
-        <div className="mt-4 flex justify-center">
+        <div className="mt-6 flex justify-center">
                 <Link href="/">
                     <Button
                     className="cursor-pointer bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
