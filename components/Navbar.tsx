@@ -27,28 +27,28 @@ function Navbar({ className }: { className?: string }) {
         {/* Updated All Courses Menu */}
         <MenuItem setActive={setActive} active={active} item="All Courses">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/courses/music-theory-essentials">
+            <HoveredLink href="">
               Music Theory
             </HoveredLink>
-            <HoveredLink href="/courses/advanced-composition-techniques">
+            <HoveredLink href="">
               Composition
             </HoveredLink>
-            <HoveredLink href="/courses/songwriting-for-modern-artists">
+            <HoveredLink href="">
               Songwriting
             </HoveredLink>
-            <HoveredLink href="/courses/music-technology-fundamentals">
+            <HoveredLink href="">
               Music Technology
             </HoveredLink>
-            <HoveredLink href="/courses/audio-engineering-and-mixing">
+            <HoveredLink href="">
               Audio Engineering
             </HoveredLink>
-            <HoveredLink href="/courses/orchestration-for-film-and-games">
+            <HoveredLink href="">
               Orchestration
             </HoveredLink>
-            <HoveredLink href="/courses/sound-design-and-synthesis">
+            <HoveredLink href="">
               Sound Design
             </HoveredLink>
-            <HoveredLink href="/courses/film-scoring-masterclass">
+            <HoveredLink href="">
               Film Scoring
             </HoveredLink>
           </div>
@@ -57,9 +57,9 @@ function Navbar({ className }: { className?: string }) {
         {/* Pricing Section */}
         <MenuItem setActive={setActive} active={active} item="Pricing">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/pricing/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/pricing/individual">Individual</HoveredLink>
-            <HoveredLink href="/pricing/team">Group</HoveredLink>
+            <HoveredLink href="#pricing">Starter</HoveredLink>
+            <HoveredLink href="#pricing">Intermediate</HoveredLink>
+            <HoveredLink href="#pricing">Pro</HoveredLink>
           </div>
         </MenuItem>
 

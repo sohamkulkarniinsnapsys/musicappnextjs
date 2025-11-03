@@ -98,7 +98,7 @@ export default function UpcomingWebinars() {
           <Button
             className="cursor-pointer bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
             >
-            Explore courses
+            View All Webinars
           </Button>
         </div>
       </div>

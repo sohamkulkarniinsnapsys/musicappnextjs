@@ -22,7 +22,7 @@ function FeaturedCourses() {
   )
 
   return (
-    <section className="py-16 bg-gray-900 text-white">
+    <section id="featured-courses" className="py-16 bg-gray-900 text-white">
       {/* Header */}
       <div className="text-center mb-12 px-4">
         <h2 className="text-sm text-teal-400 font-semibold tracking-wide uppercase">
